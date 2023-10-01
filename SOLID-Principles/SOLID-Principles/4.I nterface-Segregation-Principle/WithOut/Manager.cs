@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SOLID_Principles._4.I_nterface_Segregation_Principle.WithOut
+{
+    class Manager : ILead
+    {
+        public void AssginTask()
+        {
+            //Code to assign a task.
+        }
+
+        public void CreateTask()
+        {
+            //Code to create a task.  
+        }
+
+        public void WorkOnTask()
+        {
+            Console.WriteLine("Manager can't work on Task");
+        }
+    }
+}
