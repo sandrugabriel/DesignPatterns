@@ -29,16 +29,17 @@ namespace Loose_Coupling
         public void PlayFistLevel()
         {
             int lvl = 1;
+            EnemyFactory factory = new EnemyFactory(lvl);
             List<IEnemy> enemies = new List<IEnemy>();
 
             for (int i = 0; i < 10; i++)
             {
-                enemies.Add(EnemyFactory.SpawnZombie(lvl));
+                enemies.Add(factory.SpawnZombie(lvl));
             }
 
             for (int i = 0; i < 3; i++)
             {
-                enemies.Add(EnemyFactory.SpawnWereWolf(lvl));
+                enemies.Add(factory.SpawnWereWolf(lvl));
             }
 
             foreach (var enemy in enemies)
