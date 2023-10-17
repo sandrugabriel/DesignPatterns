@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loose-Coupling&Object-Pooling", "Loose-Coupling\Loose-Coupling&Object-Pooling.csproj", "{3B1DCC46-7FC1-4149-9B75-8E47189722CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Built-in-ASP-IoC-Container", "Built-in-ASP-IoC-Container\Built-in-ASP-IoC-Container.csproj", "{1C81E0B5-7418-4662-A46E-377FDA6CB561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{D08B3682-B5D4-473C-8F6D-EEE66CB235D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3B1DCC46-7FC1-4149-9B75-8E47189722CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B1DCC46-7FC1-4149-9B75-8E47189722CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B1DCC46-7FC1-4149-9B75-8E47189722CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C81E0B5-7418-4662-A46E-377FDA6CB561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C81E0B5-7418-4662-A46E-377FDA6CB561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C81E0B5-7418-4662-A46E-377FDA6CB561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C81E0B5-7418-4662-A46E-377FDA6CB561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D08B3682-B5D4-473C-8F6D-EEE66CB235D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08B3682-B5D4-473C-8F6D-EEE66CB235D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08B3682-B5D4-473C-8F6D-EEE66CB235D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08B3682-B5D4-473C-8F6D-EEE66CB235D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
