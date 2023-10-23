@@ -16,7 +16,7 @@ namespace Loose_Coupling
 
         static PrimaryPlayer()
         {
-            _instante = new PrimaryPlayer()
+            _instante = new PrimaryPlayer();
         }
 
         public static PrimaryPlayer Instance { get { return _instante; } }
