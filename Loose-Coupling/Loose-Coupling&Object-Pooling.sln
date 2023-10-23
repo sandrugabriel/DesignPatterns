@@ -5,9 +5,9 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loose-Coupling&Object-Pooling", "Loose-Coupling\Loose-Coupling&Object-Pooling.csproj", "{3B1DCC46-7FC1-4149-9B75-8E47189722CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Built-in-ASP-IoC-Container", "Built-in-ASP-IoC-Container\Built-in-ASP-IoC-Container.csproj", "{1C81E0B5-7418-4662-A46E-377FDA6CB561}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Built-in-ASP-IoC-Container", "Built-in-ASP-IoC-Container\Built-in-ASP-IoC-Container.csproj", "{1C81E0B5-7418-4662-A46E-377FDA6CB561}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{D08B3682-B5D4-473C-8F6D-EEE66CB235D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{D08B3682-B5D4-473C-8F6D-EEE66CB235D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
